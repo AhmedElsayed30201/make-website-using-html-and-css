@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+          font-family: 'Rubik', sans-serif;
+          padding: 0;
+          margin: 0;
+}
+
+body{
+          background-image: linear-gradient(to right , #030016, #000);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          color: #fff;
+}
+
+.container{
+          background-image: 
+          linear-gradient(to right , #01022de5 30%, #000000c3),
+          url(../images/OIP.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 90%;
+          height: 640px;
+}
+
+
+.container:hover{
+          background-image: 
+          linear-gradient(to right , #01022de5 30%, transparent),
+          url(../images/OIP.jpg);
+}
+
+header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 40px;
+          text-transform: uppercase;
+}
+
+header .logo{
+          text-decoration: none;
+          color: #fff;
+          font-size: 30px;
+          border: 2px solid rgb(192, 8, 8);
+          padding: 10px 20px;
+          transition: all .3s;
+}
+
+header .logo:hover{
+          background-color: rgb(192, 8, 8);
+}
+
+header ul{
+          width: 60%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          list-style: none;
+          font-size: 20px;
+}
+header ul li {
+          transition: all .3s;
+          cursor: pointer;
+}
+header ul li.active,
+header ul li:hover {
+          color: rgb(192, 8, 8);
+}
+
+
+.content{
+          width: 50%;
+          padding: 30px;
+          margin-top: 50px;
+}
+
+.content h2{
+          font-size: 100px;
+          text-transform: uppercase;
+}
+
+.content p {
+          letter-spacing: 3px;
+          width: 350px;
+          padding: 20px 0;
+}
+
+.content button{
+          background-color: transparent;
+          border: 2px solid rgb(192, 8, 8);
+          padding: 10px 20px;
+          font-size: 18px;
+          font-weight: bold;
+          cursor: pointer;
+          color: #fff;
+          transition: all .3s;
+}
+
+.content button:hover{
+          background-color: rgb(192, 8, 8);  
+}
